@@ -11,7 +11,7 @@ sudo apt-get install build-essential
 
 ```bash
 git clone https://github.com/a13xe/LinuxProjectedFile
-cd LinuxProjectedFiles
+cd LinuxProjectedFile
 ```
 
 #### `✅ Step 2.` In one terminal window, start the server with:
