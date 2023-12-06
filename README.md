@@ -7,7 +7,7 @@ sudo apt-get install build-essential
 
 # :hammer: Installation
 
-#### `✅ Step 1.` Grab a copy of the code on your machine:
+#### `✅ Step 1.` Grab a copy of the code onto your machine:
 
 ```bash
 git clone https://github.com/a13xe/LinuxProjectedFiles
