@@ -35,6 +35,4 @@ g++ -o client client.cpp
 
 # :camera_flash: Example
 
-
-https://github.com/a13xe/LinuxProjectedFiles/assets/77492646/9cebb344-843d-42a5-9449-552718c9e2c4
-
+https://github.com/a13xe/LinuxProjectedFile/assets/77492646/c84fb5ac-53a1-413b-8caf-f558554fd9a5
