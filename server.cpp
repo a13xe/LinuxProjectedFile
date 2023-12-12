@@ -22,11 +22,17 @@ int main()
     bool running = true;
     while (running) 
     {
-        std::cout << "Server Menu:\n"
-                  << "1. Perform Projection\n"
-                  << "2. Record Data\n"
-                  << "3. Shut Down\n"
-                  << "Enter choice: ";
+        printf("\033[0;33;40m"); 
+        puts("====================================================");
+        puts("Client Menu:");
+        puts("====================================================");
+        printf("\033[0m"); 
+        puts("1. Perform Projection");
+        puts("2. Read Data");
+        puts("3. Shut Down");
+        printf("\033[0;34;40m");
+        puts("Enter choice:");
+        printf("\033[0m"); 
         int choice;
         std::cin >> choice;
 
@@ -38,7 +44,7 @@ int main()
                 ptr = static_cast<char *>(mmap(NULL, FILESIZE, PROT_READ | PROT_WRITE, MAP_SHARED, fd, 0));
                 break;
             case 2:
-                sprintf(ptr, "Hello, shared memory!");
+                sprintf(ptr, "This is a message to a client!");
                 break;
             case 3:
                 munmap(ptr, FILESIZE);
