@@ -22,11 +22,18 @@ int main()
     bool running = true;
     while (running) 
     {
-        std::cout << "Client Menu:\n"
-                  << "1. Perform Projection\n"
-                  << "2. Read Data\n"
-                  << "3. Shut Down\n"
-                  << "Enter choice: ";
+        printf("\033[0;33;40m");
+        puts("====================================================");
+        puts("Client Menu:");
+        puts("====================================================");
+        printf("\033[0m");
+        puts("1. Perform Projection");
+        puts("2. Read Data");
+        puts("3. Shut Down");
+        printf("\033[0;34;40m");
+        puts("Enter choice:");
+        printf("\033[0m");
+
         int choice;
         std::cin >> choice;
         switch (choice) 
